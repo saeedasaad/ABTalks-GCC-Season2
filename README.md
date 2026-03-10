@@ -7,8 +7,8 @@ I am documenting my progress day by day to build consistency, confidence, and sh
 
 ##  Repository Structure
 
-ABTalks-GCC-Season2/ 
 ```
+ABTalks-GCC-Season2/ 
 │ ├── Day-01/ 
 │   └── solution.py 
 │ ├── Day-02/ 
