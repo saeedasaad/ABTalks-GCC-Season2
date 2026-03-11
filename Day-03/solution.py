@@ -1,5 +1,5 @@
 try:
-    # Step 1: Take input
+
     num = int(input("Enter a number: "))
 
     num_str = str(num)
