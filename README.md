@@ -366,11 +366,9 @@ ABTalks-GCC-Season2/
   ### Day-13: Length of Last Word (Software Engineering - Strings & Parsing)
 
 - **Problem Statement:**  
-Given a string that may contain multiple words separated by spaces, determine the **length of the last word** in the string.
-
-A **word** is defined as a sequence of **non-space characters**.
-
-The goal is to correctly parse the string, handle extra spaces, and return the length of the final word.
+  Given a string that may contain multiple words separated by spaces, determine the **length of the last word** in the string.
+  A **word** is defined as a sequence of **non-space characters**.
+  The goal is to correctly parse the string, handle extra spaces, and return the length of the final word.
 
 
 - **Challenge Overview:**  
