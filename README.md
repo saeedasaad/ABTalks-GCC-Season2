@@ -34,6 +34,8 @@ ABTalks-GCC-Season2/
 │ ├── Day-12/
 │   └── solution.py
 │ ├── Day-13/
+│   └── solution.
+│ ├── Day-14/
 │   └── solution.py
 │ └── README.md
 ```
@@ -388,3 +390,44 @@ ABTalks-GCC-Season2/
 
 - **Solution File:**  
   `Day-12/solution.py`
+
+  ---
+
+  # Day-14: Weekly Test (Python Basics)
+
+## Overview
+Day-14 is the **weekly assessment** of the ABTalksOnAI Global Coding Challenge.  
+The goal is to reinforce Python fundamentals by solving **3 easy problems** focusing on lists, strings, and logical problem-solving.
+
+---
+
+## Problems Solved
+
+### 1. Move Zeroes
+- **Problem:** Rearrange a list so that all zeroes move to the end, while keeping non-zero elements in order.
+- **Solution Highlights:** Used list comprehension and `count()` to separate non-zero elements and append zeroes.
+- **Learning:** Practiced list manipulation and efficient rearrangement.
+
+### 2. Reverse String
+- **Problem:** Reverse a given string.
+- **Solution Highlights:** Applied Python slicing `[::-1]` for a clean one-line solution.
+- **Learning:** Strengthened understanding of string slicing and traversal.
+
+### 3. Length of Last Word
+- **Problem:** Find the length of the last word in a sentence, handling trailing spaces.
+- **Solution Highlights:** Used `strip()` and `split()` to parse words and return the length of the last one.
+- **Learning:** Practiced string parsing and edge case handling.
+
+---
+
+## Reflection
+This weekly test helped consolidate my learning from earlier challenges.  
+I reinforced:
+- **List operations** (Move Zeroes)  
+- **String slicing** (Reverse String)  
+- **String parsing** (Length of Last Word)  
+
+Completing this assessment boosted my confidence in Python basics and prepared me better for interview-style problems.  
+Consistency in solving and documenting challenges continues to strengthen my coding journey.
+
+---
