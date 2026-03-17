@@ -431,3 +431,50 @@ Completing this assessment boosted my confidence in Python basics and prepared m
 Consistency in solving and documenting challenges continues to strengthen my coding journey.
 
 ---
+
+# Day-15: Big-O in Python (Contains Duplicate)
+
+## Overview  
+Day-15 of the **ABTalksOnAI Global Coding Challenge** focused on understanding **time and space complexity** using Big-O notation.  
+The challenge was to detect duplicates in a list of elements and compare different approaches based on performance.  
+This exercise reinforced how algorithmic choices directly impact efficiency, a key skill for technical interviews.
+
+---
+
+## Problems Solved  
+
+### 1. Contains Duplicate – Brute Force  
+- **Problem:** Check for duplicates using nested loops.  
+- **Solution Highlights:** Compared each element with every other element.  
+- **Learning:** Demonstrated inefficiency of `O(n^2)` time complexity.  
+
+### 2. Contains Duplicate – Sorting  
+- **Problem:** Sort the list and check adjacent elements.  
+- **Solution Highlights:** Used Python’s built-in `sort()` and linear scan.  
+- **Learning:** Improved efficiency to `O(n log n)`, but sorting adds overhead.  
+
+### 3. Contains Duplicate – HashSet (Optimal)  
+- **Problem:** Use a set to track seen elements.  
+- **Solution Highlights:** Leveraged constant-time set lookups for duplicates.  
+- **Learning:** Achieved optimal `O(n)` time complexity with `O(n)` space usage.  
+
+---
+
+## Complexity Comparison  
+
+| Approach        | Time Complexity | Space Complexity | Notes                        |
+|-----------------|-----------------|------------------|------------------------------|
+| Brute Force     | O(n^2)          | O(1)             | Too slow for large inputs    |
+| Sorting         | O(n log n)      | O(1)/O(n)        | Relies on sorting            |
+| HashSet         | O(n)            | O(n)             | Best balance of speed & space|
+
+---
+
+## Reflection  
+This challenge highlighted the importance of **choosing the right algorithm**:  
+- Brute force solutions are simple but inefficient.  
+- Sorting introduces logarithmic complexity but is still suboptimal.  
+- HashSet provides the most efficient solution, balancing speed and space.  
+
+By analyzing Big-O notation, I strengthened my ability to evaluate trade-offs and write interview-ready solutions.  
+Consistency in solving and documenting challenges continues to build my confidence and inspire others in the community.  
