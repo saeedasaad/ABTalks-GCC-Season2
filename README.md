@@ -395,88 +395,101 @@ ABTalks-GCC-Season2/
 
   ---
 
-  # Day-14: Weekly Test (Python Basics)
+### Day-14: Weekly Test (Python Basics)
 
-## Overview
-Day-14 is the **weekly assessment** of the ABTalksOnAI Global Coding Challenge.  
-The goal is to reinforce Python fundamentals by solving **3 easy problems** focusing on lists, strings, and logical problem-solving.
+- **Problem Statement:**  
+  Day-14 is the **weekly assessment** of the ABTalksOnAI Global Coding Challenge.  
+  The goal was to reinforce Python fundamentals by solving **3 easy problems** focusing on lists, strings, and logical problem-solving.
 
----
+- **Challenge Overview:**  
+  - Work with lists and strings to solve beginner-friendly problems.  
+  - Apply logical operations and efficient traversal.  
+  - Strengthen confidence in Python basics through interview-style problems.  
+  - Document solutions clearly for reflection and sharing.  
 
-## Problems Solved
+- **Topics Covered:**  
+  - List manipulation and rearrangement  
+  - String slicing and traversal  
+  - String parsing and edge case handling  
+  - Writing clean and structured Python code  
+  - Practicing interview-style fundamentals  
 
-### 1. Move Zeroes
-- **Problem:** Rearrange a list so that all zeroes move to the end, while keeping non-zero elements in order.
-- **Solution Highlights:** Used list comprehension and `count()` to separate non-zero elements and append zeroes.
-- **Learning:** Practiced list manipulation and efficient rearrangement.
+- **Problems Solved:**  
+  1. **Move Zeroes**  
+     - Rearranged a list so that all zeroes move to the end, while keeping non-zero elements in order.  
+     - Practiced list comprehension and `count()` for efficient rearrangement.  
 
-### 2. Reverse String
-- **Problem:** Reverse a given string.
-- **Solution Highlights:** Applied Python slicing `[::-1]` for a clean one-line solution.
-- **Learning:** Strengthened understanding of string slicing and traversal.
+  2. **Reverse String**  
+     - Reversed a given string using Python slicing `[::-1]`.  
+     - Strengthened understanding of string slicing and traversal.  
 
-### 3. Length of Last Word
-- **Problem:** Find the length of the last word in a sentence, handling trailing spaces.
-- **Solution Highlights:** Used `strip()` and `split()` to parse words and return the length of the last one.
-- **Learning:** Practiced string parsing and edge case handling.
+  3. **Length of Last Word**  
+     - Found the length of the last word in a sentence, handling trailing spaces.  
+     - Applied `strip()` and `split()` for parsing and edge case handling.  
 
----
+- **Solution File:**  
+  `Day-14/solution.py`
 
-## Reflection
-This weekly test helped consolidate my learning from earlier challenges.  
-I reinforced:
-- **List operations** (Move Zeroes)  
-- **String slicing** (Reverse String)  
-- **String parsing** (Length of Last Word)  
+- **Reflection:**  
+  This weekly test consolidated my learning from earlier challenges.  
+  I reinforced:  
+  - **List operations** (Move Zeroes)  
+  - **String slicing** (Reverse String)  
+  - **String parsing** (Length of Last Word)  
 
-Completing this assessment boosted my confidence in Python basics and prepared me better for interview-style problems.  
-Consistency in solving and documenting challenges continues to strengthen my coding journey.
-
----
-
-# Day-15: Big-O in Python (Contains Duplicate)
-
-## Overview  
-Day-15 of the **ABTalksOnAI Global Coding Challenge** focused on understanding **time and space complexity** using Big-O notation.  
-The challenge was to detect duplicates in a list of elements and compare different approaches based on performance.  
-This exercise reinforced how algorithmic choices directly impact efficiency, a key skill for technical interviews.
-
----
-
-## Problems Solved  
-
-### 1. Contains Duplicate – Brute Force  
-- **Problem:** Check for duplicates using nested loops.  
-- **Solution Highlights:** Compared each element with every other element.  
-- **Learning:** Demonstrated inefficiency of `O(n^2)` time complexity.  
-
-### 2. Contains Duplicate – Sorting  
-- **Problem:** Sort the list and check adjacent elements.  
-- **Solution Highlights:** Used Python’s built-in `sort()` and linear scan.  
-- **Learning:** Improved efficiency to `O(n log n)`, but sorting adds overhead.  
-
-### 3. Contains Duplicate – HashSet (Optimal)  
-- **Problem:** Use a set to track seen elements.  
-- **Solution Highlights:** Leveraged constant-time set lookups for duplicates.  
-- **Learning:** Achieved optimal `O(n)` time complexity with `O(n)` space usage.  
+  Completing this assessment boosted my confidence in Python basics and prepared me better for interview-style problems.  
+  Consistency in solving and documenting challenges continues to strengthen my coding journey.
 
 ---
 
-## Complexity Comparison  
+### Day-15: Big-O in Python (Contains Duplicate)
 
-| Approach        | Time Complexity | Space Complexity | Notes                        |
-|-----------------|-----------------|------------------|------------------------------|
-| Brute Force     | O(n^2)          | O(1)             | Too slow for large inputs    |
-| Sorting         | O(n log n)      | O(1)/O(n)        | Relies on sorting            |
-| HashSet         | O(n)            | O(n)             | Best balance of speed & space|
+- **Problem Statement:**  
+  Given a list of integers, determine if the list contains any duplicates.  
+  Return `True` if duplicates exist, otherwise `False`.  
 
----
+- **Challenge Overview:**  
+  - Work with a list of elements and analyze the presence of duplicate values.  
+  - Understand how different approaches impact time complexity.  
+  - Apply efficient logic to detect duplicates in the dataset.  
+  - Compare approaches based on performance using Big-O analysis.  
 
-## Reflection  
-This challenge highlighted the importance of **choosing the right algorithm**:  
-- Brute force solutions are simple but inefficient.  
-- Sorting introduces logarithmic complexity but is still suboptimal.  
-- HashSet provides the most efficient solution, balancing speed and space.  
+- **Topics Covered:**  
+  - Understanding Big-O notation  
+  - Analyzing time and space complexity  
+  - Optimizing code for better performance  
+  - Working with lists and sets in Python  
+  - Preparing for coding interviews  
 
-By analyzing Big-O notation, I strengthened my ability to evaluate trade-offs and write interview-ready solutions.  
-Consistency in solving and documenting challenges continues to build my confidence and inspire others in the community.  
+- **Problems Solved:**  
+  1. **Contains Duplicate – Brute Force**  
+     - Checked for duplicates using nested loops.  
+     - Demonstrated inefficiency of `O(n^2)` time complexity.  
+
+  2. **Contains Duplicate – Sorting**  
+     - Sorted the list and checked adjacent elements.  
+     - Improved efficiency to `O(n log n)`, but sorting adds overhead.  
+
+  3. **Contains Duplicate – HashSet (Optimal)**  
+     - Used a set to track seen elements.  
+     - Achieved optimal `O(n)` time complexity with `O(n)` space usage.  
+
+- **Solution File:**  
+  `Day-15/solution.py`
+
+- **Complexity Comparison:**  
+
+  | Approach        | Time Complexity | Space Complexity | Notes                        |
+  |-----------------|-----------------|------------------|------------------------------|
+  | Brute Force     | O(n^2)          | O(1)             | Too slow for large inputs    |
+  | Sorting         | O(n log n)      | O(1)/O(n)        | Relies on sorting            |
+  | HashSet         | O(n)            | O(n)             | Best balance of speed & space|
+
+- **Reflection:**  
+  This challenge highlighted the importance of **choosing the right algorithm**:  
+  - Brute force solutions are simple but inefficient.  
+  - Sorting introduces logarithmic complexity but is still suboptimal.  
+  - HashSet provides the most efficient solution, balancing speed and space.  
+
+  By analyzing Big-O notation, I strengthened my ability to evaluate trade-offs and write interview-ready solutions.  
+  Consistency in solving and documenting challenges continues to build my confidence and inspire others in the community.
