@@ -39,6 +39,8 @@ ABTalks-GCC-Season2/
 │   └── solution.py
 │ ├── Day-15/
 │   └── solution.py
+│ ├── Day-16/
+│   └── solution.py
 │ └── README.md
 ```
 ---
@@ -493,3 +495,31 @@ ABTalks-GCC-Season2/
 
   By analyzing Big-O notation, I strengthened my ability to evaluate trade-offs and write interview-ready solutions.  
   Consistency in solving and documenting challenges continues to build my confidence and inspire others in the community.
+
+  ---### Day-16: Fibonacci Number (Software Engineering - Recursion Basics)
+
+- **Problem Statement:**  
+  Given a number `n`, compute the nth Fibonacci number using recursion.  
+  The Fibonacci sequence is defined as:
+  - F(1) = 0  
+  - F(2) = 1  
+  - F(n) = F(n-1) + F(n-2) for n > 2  
+
+- **Challenge Overview:**  
+  - Understand the concept of recursion and function calls.  
+  - Break the Fibonacci problem into smaller subproblems.  
+  - Apply recursive logic to compute the result.  
+  - Observe how function calls stack and return values.  
+
+- **Topics Covered:**  
+  - Recursion fundamentals  
+  - Function calling itself (self-reference)  
+  - Base case and recursive case handling  
+  - Call stack behavior in recursion  
+  - Writing clean and structured Python code  
+
+- **Solution File:**  
+  `Day-16/solution.py`
+
+- **Reflection:**  
+  Practiced the basics of recursion by solving the Fibonacci problem. Learned how to define base cases and recursive cases properly to avoid infinite recursion. This challenge helped in understanding how function calls are managed in the call stack. Although recursion is simple to implement, I also realized it can be inefficient for large inputs, which highlights the importance of optimization techniques like memoization in future problems.
