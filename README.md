@@ -496,7 +496,9 @@ ABTalks-GCC-Season2/
   By analyzing Big-O notation, I strengthened my ability to evaluate trade-offs and write interview-ready solutions.  
   Consistency in solving and documenting challenges continues to build my confidence and inspire others in the community.
 
-  ---### Day-16: Fibonacci Number (Software Engineering - Recursion Basics)
+  ---
+  
+  ### Day-16: Fibonacci Number (Software Engineering - Recursion Basics)
 
 - **Problem Statement:**  
   Given a number `n`, compute the nth Fibonacci number using recursion.  
