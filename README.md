@@ -530,8 +530,6 @@ ABTalks-GCC-Season2/
   Practiced the basics of recursion by solving the Fibonacci problem. Learned how to define base cases and recursive cases properly to avoid infinite recursion. This challenge helped in understanding how function calls are managed in the call stack. Although recursion is simple to implement, I also realized it can be inefficient for large inputs, which highlights the importance of optimization techniques like memoization in future problems.
 
   ---
-
-  ---
 ### Day-17: Climbing Stairs (Software Engineering - Dynamic Programming Introduction)
 
 - **Problem Statement:**  
