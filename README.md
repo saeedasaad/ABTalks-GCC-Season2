@@ -560,7 +560,6 @@ ABTalks-GCC-Season2/
   This exercise reinforced the importance of recognizing overlapping subproblems and optimizing them—a key skill for advanced coding interviews.
 ---
 
----
 ### Day-18: Valid Parentheses (Software Engineering - Stack Basics)
 
 - **Problem Statement:**  
