@@ -16,7 +16,6 @@ def isValid(s: str) -> bool:
 
     return not stack 
 
-
 if __name__ == "__main__":
     test_cases = ["()", "()[]{}", "(]", "([)]", "{[]}"]
     for case in test_cases:
