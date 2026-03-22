@@ -47,6 +47,8 @@ ABTalks-GCC-Season2/
 │   └── solution.py
 │ ├── Day-19/
 │   └── solution.py
+│ ├── Day-20/
+│   └── solution.py
 │ └── README.md
 
 ```
@@ -620,3 +622,32 @@ ABTalks-GCC-Season2/
 
 - **Reflection:**  
   This challenge highlighted how stacks can be extended beyond their basic push and pop operations. By maintaining an auxiliary stack to track minimum values, I learned how to achieve constant-time retrieval of the minimum element. The exercise reinforced the importance of designing data structures with efficiency in mind, especially for interview-style problems. It also showed how thoughtful design can make a stack more powerful and practical for real-world scenarios. Practicing this problem strengthened my confidence in system design and optimized coding techniques.
+
+  ---
+
+  ### Day-20: Evaluate Reverse Polish Notation (Software Engineering - Stack Evaluation)
+
+- **Problem Statement:**  
+  Evaluate an arithmetic expression written in Reverse Polish Notation (RPN).  
+  - Operands are integers.  
+  - Operators include `+`, `-`, `*`, `/`.  
+  - Division should truncate toward zero.  
+
+- **Challenge Overview:**  
+  - Use a stack to process operands and operators.  
+  - Push operands onto the stack.  
+  - When encountering an operator, pop two operands, apply the operator, and push the result back.  
+  - Continue until the expression is fully evaluated.  
+
+- **Topics Covered:**  
+  - Stack-based computation  
+  - Expression parsing  
+  - Push and pop operations  
+  - Logical problem-solving techniques  
+  - Interview-style coding practice  
+
+- **Solution File:**  
+  `Day-20/solution.py`
+
+- **Reflection:**  
+  This challenge reinforced how stacks simplify expression evaluation. By following the push-pop mechanism, I could process RPN expressions without worrying about operator precedence or parentheses. It highlighted the elegance of stack-based computation in compilers and calculators. Practicing this problem improved my confidence in handling stack operations and strengthened my preparation for interview-style questions. It also reminded me how foundational data structures like stacks can unlock powerful solutions in parsing and evaluation tasks.
