@@ -679,3 +679,30 @@ ABTalks-GCC-Season2/
 
 - **Reflection:**  
   This challenge highlighted the power of monotonic stacks in solving "next greater element" problems. Instead of a brute-force O(n²) approach, the stack-based solution achieves O(n) efficiency by ensuring each index is pushed and popped at most once. It reinforced how stacks can be used not only for expression evaluation but also for sequence analysis. Practicing this problem improved my ability to recognize patterns where monotonic stacks apply, which is crucial for advanced interview preparation. It also reminded me how elegant data structures can transform seemingly complex problems into efficient solutions.
+
+  ---
+
+  ### Day-22: Implement Queue using Stacks (Software Engineering - Deque)
+
+- **Problem Statement:**  
+  Implement a queue using two stacks. The queue should support the standard operations: enqueue (push) and dequeue (pop).  
+
+- **Challenge Overview:**  
+  - A queue follows FIFO (First-In-First-Out).  
+  - A stack follows LIFO (Last-In-First-Out).  
+  - By combining two stacks, we can simulate queue behavior.  
+  - One stack (`in_stack`) is used for enqueue operations, while another (`out_stack`) is used for dequeue operations.  
+  - When `out_stack` is empty, elements are transferred from `in_stack` to `out_stack` to maintain FIFO order.  
+
+- **Topics Covered:**  
+  - Queue fundamentals  
+  - Stack fundamentals  
+  - Logical transformation (FIFO using LIFO)  
+  - Efficient data structure design  
+  - Interview-style coding practice  
+
+- **Solution File:**  
+  `Day-22/solution.py`  
+
+- **Reflection:**  
+  This challenge reinforced how different data structures can be combined to achieve desired behavior. Implementing a queue using stacks highlights the importance of logical transformations in problem-solving. It also demonstrates how constraints can inspire creative solutions. Practicing this problem improved my ability to think about efficiency and transformations, which is crucial for system design and interviews.
