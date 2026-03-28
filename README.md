@@ -55,6 +55,12 @@ ABTalks-GCC-Season2/
 │   └── solution.py
 │ ├── Day-23/
 │   └── solution.py
+│ ├── Day-24/
+│   └── solution.py
+│ ├── Day-25/
+│   └── solution.py
+│ ├── Day-26/
+│   └── solution.py
 │ └── README.md
 
 ```
