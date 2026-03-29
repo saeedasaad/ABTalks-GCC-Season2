@@ -59,8 +59,6 @@ ABTalks-GCC-Season2/
 │   └── solution.py
 │ ├── Day-25/
 │   └── solution.py
-│ ├── Day-26/
-│   └── solution.py
 │ └── README.md
 
 ```
@@ -796,29 +794,4 @@ ABTalks-GCC-Season2/
   This challenge reinforced the importance of efficient pointer movement in linked lists. Implementing Floyd’s Cycle Detection Algorithm highlighted how two pointers moving at different speeds can elegantly detect loops without extra memory. Practicing this problem improved my confidence in handling edge cases and optimized traversal strategies, preparing me for interview-level coding challenges.
 
 
----
 
-## Day-26: Linked List Cycle II (Software Engineering - Python Nodes)
-
-- **Problem Statement:**  
-  Given a singly linked list, return the node where the cycle begins. If no cycle exists, return `None`. A cycle exists if a node’s `next` pointer references a previously visited node, creating an infinite loop.
-
-- **Challenge Overview:**  
-  - Extends the cycle detection problem by identifying the exact node where the cycle starts.  
-  - Floyd’s Cycle Detection Algorithm (Tortoise and Hare) is used to first detect the cycle.  
-  - Once a cycle is detected, reset one pointer to the head and move both pointers one step at a time.  
-  - The node where they meet is the start of the cycle.  
-  - This problem is a classic interview question testing advanced pointer manipulation and traversal strategies.  
-
-- **Topics Covered:**  
-  - Advanced linked list traversal techniques  
-  - Floyd’s Cycle Detection Algorithm  
-  - Pointer manipulation and meeting point logic  
-  - Optimizing time and space complexity  
-  - Interview-style coding practice  
-
-- **Solution File:**  
-  `Day-26/solution.py`  
-
-- **Reflection:**  
-  This challenge deepened my understanding of linked list cycle detection. Implementing Floyd’s Cycle Detection Algorithm not only allowed me to confirm the presence of a cycle but also pinpoint its starting node. The elegance of resetting one pointer to the head and moving both pointers step by step until they meet reinforced the importance of mathematical reasoning in algorithm design. Practicing this problem improved my confidence in handling complex pointer-based logic and strengthened my preparation for interview-level coding challenges.
