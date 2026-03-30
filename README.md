@@ -717,81 +717,9 @@ ABTalks-GCC-Season2/
 
   ---
 
-### Day-23: Reverse Linked List (Software Engineering - Python Nodes)
 
-- **Problem Statement:**  
-  Reverse a linked list by manipulating node connections. Implement both iterative and recursive approaches to strengthen understanding of pointer handling.
 
-- **Challenge Overview:**  
-  - A linked list is a sequence of nodes connected by references (pointers).  
-  - Reversing a linked list requires changing the direction of these connections.  
-  - Iterative approach: Traverse the list while adjusting `next` pointers.  
-  - Recursive approach: Use function calls to reverse the list step by step.  
-  - This problem is a classic test of logic building and pointer manipulation.  
 
-- **Topics Covered:**  
-  - Linked list fundamentals  
-  - Node relationships and pointer manipulation  
-  - Iterative reversal logic  
-  - Recursive reversal logic  
-  - Interview-style coding practice  
-
-- **Solution File:**  
-  `Day-23/solution.py`  
-
-- **Reflection:**  
-  This challenge reinforced my understanding of how linked lists work at a structural level. Reversing a linked list highlights the importance of pointer manipulation and logical thinking. The iterative solution is efficient and straightforward, while the recursive solution deepens comprehension of stack behavior and recursion. Practicing this problem improved my confidence in handling data structures and prepared me for interview-style questions.
-
----
-## Day-24: Merge Two Sorted Lists (Software Engineering - Python Nodes)
-
-- **Problem Statement:**  
-  Merge two sorted singly linked lists into one sorted linked list. The merged list should preserve the sorted order of elements from both input lists.
-
-- **Challenge Overview:**  
-  - A linked list is a sequence of nodes connected by references (pointers).  
-  - Merging two sorted lists requires traversing both simultaneously and choosing the smaller node at each step.  
-  - Efficient merging ensures that the final list maintains sorted order without unnecessary extra space.  
-  - This problem is a classic test of pointer manipulation and algorithmic efficiency, often asked in interviews.  
-
-- **Topics Covered:**  
-  - Linked list fundamentals  
-  - Node relationships and pointer handling  
-  - Merging sorted data structures  
-  - Efficient traversal logic  
-  - Interview-style coding practice  
-
-- **Solution File:**  
-  `Day-24/solution.py`  
-
-- **Reflection:**  
-  This challenge strengthened my understanding of how to manipulate linked lists while maintaining order. Merging two sorted lists highlights the importance of careful pointer handling and efficient traversal. The solution avoids extra space by directly reusing nodes, which is both elegant and practical. Practicing this problem improved my confidence in handling ordered data structures and prepared me for interview-level coding challenges.
-
-  ---
-
-  ## Day-25: Linked List Cycle Detection (Software Engineering - Python Nodes)
-
-- **Problem Statement:**  
-  Detect if a given singly linked list contains a cycle. A cycle exists if a node’s `next` pointer references a previously visited node, creating an infinite loop.
-
-- **Challenge Overview:**  
-  - Cycles in linked lists can cause infinite traversal and memory issues.  
-  - Detecting loops efficiently is crucial for safe pointer-based operations.  
-  - Floyd’s Cycle Detection Algorithm (Tortoise and Hare) is the optimal approach.  
-  - This problem is a classic interview question testing pointer manipulation and traversal strategies.  
-
-- **Topics Covered:**  
-  - Linked list traversal techniques  
-  - Cycle detection algorithms  
-  - Pointer manipulation  
-  - Optimizing time and space complexity  
-  - Interview-style coding practice  
-
-- **Solution File:**  
-  `Day-25/solution.py`  
-
-- **Reflection:**  
-  This challenge reinforced the importance of efficient pointer movement in linked lists. Implementing Floyd’s Cycle Detection Algorithm highlighted how two pointers moving at different speeds can elegantly detect loops without extra memory. Practicing this problem improved my confidence in handling edge cases and optimized traversal strategies, preparing me for interview-level coding challenges.
 
 
 

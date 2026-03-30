@@ -17,7 +17,7 @@
   - Interview-style coding practice  
 
 - **Solution File:**  
-  `Day-26/solution.py`  
+  `solution.py`  
 
 - **Reflection:**  
   This challenge reinforced the importance of dummy nodes in simplifying edge cases. The two-pointer technique proved to be an elegant solution for single-pass traversal, ensuring efficiency. Practicing this problem improved my confidence in handling linked list operations and strengthened my interview readiness for pointer-based problems.
