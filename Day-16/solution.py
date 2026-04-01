@@ -1,4 +1,3 @@
-
 def fibonacci(n):
     """
     Recursive function to find nth Fibonacci number
