@@ -1,44 +1,23 @@
-# ABTalks GCC Season-2 
+## Day-28: Two Sum (Software Engineering - Hashing with dict)
 
-This repository contains my solutions for the **Global Coding Challenge (Season-2)** organized by **ABTalksOnAI**.
+- **Problem Statement:**  
+  Given an array of integers `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`. Assume that each input has exactly one solution, and you may not use the same element twice.
 
-I am documenting my journey day by day to:
+- **Challenge Overview:**  
+  - Hashing provides efficient lookup for complements when searching for pairs.  
+  - Using a dictionary (`dict`) allows us to store previously seen numbers and their indices.  
+  - The key insight is to check if the complement of the current number has already been seen.  
+  - This problem is a classic interview-style question testing knowledge of hashing, optimization, and edge-case handling.  
 
-- Build consistency  
-- Strengthen problem-solving skills  
-- Prepare for coding interviews  
-- Share my learning publicly  
+- **Topics Covered:**  
+  - Hashing fundamentals  
+  - Dictionary usage in Python  
+  - Complement-based lookup strategy  
+  - Optimizing time complexity with O(n) solutions  
+  - Interview preparation for pair-sum problems  
 
----
+- **Solution File:**  
+  `solution.py`  
 
-## Repository Structure
-
-Each day's solution is organized in its own folder, containing:
-
-- `solution.py` → Python solution  
-- `README.md` → Problem explanation, approach, and reflection  
-
-```
-ABTalks-GCC-Season2/
-│
-├── Day-01/
-│ ├── solution.py
-│ └── README.md
-│
-├── Day-02/
-│ ├── solution.py
-│ └── README.md
-│
-├── Day-03/
-│ ├── solution.py
-│ └── README.md
-│
-...
-│
-├── Day-26/
-│ ├── solution.py
-│ └── README.md
-│
-└── README.md
-
-````
+- **Reflection:**  
+  This challenge reinforced the power of dictionaries for constant-time lookups. By storing indices of previously seen numbers, we avoided nested loops and achieved an O(n) solution. The complement-checking logic highlighted how hashing can simplify pair-finding problems. Practicing this problem improved my confidence in using dicts for optimization and strengthened my readiness for interview-style coding challenges.
