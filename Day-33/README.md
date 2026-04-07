@@ -33,8 +33,8 @@
 
 - **Reflection:**  
 
-      - This challenge reinforced the **binary search beyond simple value search**.  
-      - Handling boundaries is key — using `right = mid` ensures the **first bad version is not skipped**.  
-      - Practicing this improves skills for **first/last occurrence problems** often asked in coding interviews.  
-      - Minimizing API calls simulates **real-world constraints**, emphasizing efficiency.  
-      - Using simple variable names like `num1`, `num2`, `num3` keeps the solution **readable and maintainable**.
+  - This challenge reinforced the **binary search beyond simple value search**.  
+  - Handling boundaries is key — using `right = mid` ensures the **first bad version is not skipped**.  
+  - Practicing this improves skills for **first/last occurrence problems** often asked in coding interviews.  
+  - Minimizing API calls simulates **real-world constraints**, emphasizing efficiency.  
+  - Using simple variable names like `num1`, `num2`, `num3` keeps the solution **readable and maintainable**.
