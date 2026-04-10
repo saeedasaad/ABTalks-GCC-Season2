@@ -35,7 +35,7 @@ ABTalks-GCC-Season2/
 │
 ...
 │
-├── Day-32/
+├── Day-36/
 │ ├── solution.py
 │ └── README.md
 │
