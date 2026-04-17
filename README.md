@@ -35,7 +35,7 @@ ABTalks-GCC-Season2/
 │
 ...
 │
-├── Day-40/
+├── Day-42/
 │ ├── solution.py
 │ └── README.md
 │
@@ -113,9 +113,3 @@ Examples:
 
 This challenge is helping me grow step by step.  
 Consistency and practice lead to confidence  
-
-
-
-
-
-
