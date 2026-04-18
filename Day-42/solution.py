@@ -2,7 +2,6 @@ from collections import deque
 
 class Solution:
 
-
     def numIslandsDFS(self, grid):
         if not grid:
             return 0
