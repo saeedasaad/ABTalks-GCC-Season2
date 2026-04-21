@@ -9,7 +9,6 @@ def rob(nums):
     prev2 = 0          
     prev1 = nums[0]    
 
-
     for i in range(1, len(nums)):
 
         current = max(prev1, prev2 + nums[i])
@@ -18,7 +17,6 @@ def rob(nums):
         prev1 = current
 
     return prev1
-
 
 if __name__ == "__main__":
     houses = [2, 7, 9, 3, 1]
