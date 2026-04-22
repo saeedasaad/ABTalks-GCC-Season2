@@ -18,7 +18,7 @@ This weekly test includes **3 medium-level algorithm problems** focused on core 
 
 ---
 
--**Product of Array Except Self**
+- **Product of Array Except Self**
   - Pattern: Prefix & Suffix Product
   - Key Idea: Compute left and right products without division
   - Time Complexity: O(n)
@@ -43,5 +43,5 @@ This weekly test includes **3 medium-level algorithm problems** focused on core 
 
 ---
 
-- **Solution File:**  
+### Solution File:**  
   `solution.py`
