@@ -43,5 +43,5 @@ This weekly test includes **3 medium-level algorithm problems** focused on core 
 
 ---
 
-### Solution File:**  
+### Solution File:
   `solution.py`
