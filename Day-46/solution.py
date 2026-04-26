@@ -1,11 +1,9 @@
-# Day-46: Linear Regression from Scratch
-
 import numpy as np
 
 class LinearRegression:
     def __init__(self):
-        self.m = 0  # slope
-        self.b = 0  # intercept
+        self.m = 0  
+        self.b = 0  
 
     def fit(self, X, y):
         """
@@ -17,13 +15,11 @@ class LinearRegression:
         x_mean = np.mean(X)
         y_mean = np.mean(y)
 
-        # Calculate slope (m)
         numerator = np.sum((X - x_mean) * (y - y_mean))
         denominator = np.sum((X - x_mean) ** 2)
 
         self.m = numerator / denominator
 
-        # Calculate intercept (b)
         self.b = y_mean - (self.m * x_mean)
 
     def predict(self, X):
@@ -33,15 +29,12 @@ class LinearRegression:
         return self.m * X + self.b
 
 
-# Example Dataset
 X = np.array([1, 2, 3, 4, 5])   # Input feature
 y = np.array([2, 4, 5, 4, 5])   # Output labels
 
-# Train model
 model = LinearRegression()
 model.fit(X, y)
 
-# Predictions
 predictions = model.predict(X)
 
 print("Slope (m):", model.m)
