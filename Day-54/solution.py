@@ -13,7 +13,7 @@ print(df.select_dtypes(include=['number']).corr()['hired'])
 
 df['gender_encoded'] = df['gender'].map({'male': 0, 'female': 1})
 
-X = df.drop(columns=['hired', 'gender'])  # drop original text column
+X = df.drop(columns=['hired', 'gender'])  
 X['gender_encoded'] = df['gender_encoded']
 y = df['hired']
 

@@ -64,8 +64,8 @@ def max_subarray(nums: List[int]) -> int:
     return max_sum
 
 if __name__ == "__main__":
-    print("Two Sum:", two_sum([2,7,11,15], 9))  # [0,1]
-    print("Longest Substring:", length_of_longest_substring("abcabcbb"))  # 3
-    print("Product Except Self:", product_except_self([1,2,3,4]))  # [24,12,8,6]
-    print("Search Rotated:", search_rotated([4,5,6,7,0,1,2], 0))  # 4
-    print("Max Subarray:", max_subarray([-2,1,-3,4,-1,2,1,-5,4]))  # 6
+    print("Two Sum:", two_sum([2,7,11,15], 9))  
+    print("Longest Substring:", length_of_longest_substring("abcabcbb"))  
+    print("Product Except Self:", product_except_self([1,2,3,4]))  
+    print("Search Rotated:", search_rotated([4,5,6,7,0,1,2], 0))  
+    print("Max Subarray:", max_subarray([-2,1,-3,4,-1,2,1,-5,4]))  
